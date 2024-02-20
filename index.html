@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin-top: 15%;
+            text-align: center;
+            background-color: #000000ce; 
+
+        }
+        input{  
+            height: 25px;
+            border-top: none; 
+            border-left: none; 
+            border-right: none;
+            outline: none; 
+            background-color: #000000; 
+            color: #fff; 
+        }
+        .in1:focus{
+            border-color: #ff0000;
+        }
+      
+        div{
+            text-align: center;
+            line-height: 120%;
+            padding: 10px;
+            width: 20%;
+            min-height: 150%;
+            display: inline-block;
+            border: 1px solid red;
+            background-color: #000000;
+        }
+        a{
+            text-decoration: none;
+            padding: 10px;
+            width: 30%;
+            background-color: #1d0052;
+            color: #fff;
+            border-radius: 30px;
+            border: none;
+        }
+        a:hover,.btn:hover{
+            background-color: #ff0000;
+        }
+        label:hover{
+            color: #ff0000;
+        }
+        label{
+            color: #fff;
+        }
+        .btn{
+            
+            text-decoration: none;
+            /* padding: 10px; */
+            width: 40%;
+            background-color: #1d0052;
+            color: #fff;
+            border-radius: 30px;
+            border: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <form action="">
+    <label id="in1" for="in"> Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input class="in1" id="in" type="text" placeholder="Name" required><br><br>
+    <label id="in1" for="i1"> F.Name: &nbsp;&nbsp;</label><input class="in1" id="i1" type="text" placeholder="F.Name" required><br><br>
+    <label id="in1" for="in2">Contect:  &nbsp;&nbsp;</label><input class="in1" id="in2" type="tel" maxlength="11" placeholder="Contect" required><br><br>
+    <label id="in1" for="in3">Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input class="in1" id="in3" type="email" placeholder="Email" required><br><br>
+    <label id="in1" for="in4">Password: &nbsp;</label><input class="in1" id="in4" type="password" maxlength="11" placeholder="Password" required><br><br>
+    <!-- <input class="btn" type="submit" value="Submit"> -->
+    <a href="./page/Wellcome.html" target="_blank">Submit</a>
+
+</form>
+    </div>
+</body>
+</html>
